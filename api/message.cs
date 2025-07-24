@@ -19,7 +19,7 @@ public class message
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        var response = new { value = "Matt" };
+        var response = new { value = "Maya" };
 
         return new OkObjectResult(response);
     }
